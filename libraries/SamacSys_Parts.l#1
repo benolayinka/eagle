@@ -1,0 +1,1067 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.7.0">
+<drawing>
+ <settings>
+  <setting alwaysvectorfont="no"/>
+  <setting keepoldvectorfont="yes"/>
+  <setting verticaltext="up"/>
+ </settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+ <layers>
+  <layer color="4" fill="1" visible="yes" name="Top" active="yes" number="1"/>
+  <layer color="1" fill="3" visible="no" name="Route2" active="no" number="2"/>
+  <layer color="4" fill="3" visible="no" name="Route3" active="no" number="3"/>
+  <layer color="1" fill="4" visible="no" name="Route4" active="no" number="4"/>
+  <layer color="4" fill="4" visible="no" name="Route5" active="no" number="5"/>
+  <layer color="1" fill="8" visible="no" name="Route6" active="no" number="6"/>
+  <layer color="4" fill="8" visible="no" name="Route7" active="no" number="7"/>
+  <layer color="1" fill="2" visible="no" name="Route8" active="no" number="8"/>
+  <layer color="4" fill="2" visible="no" name="Route9" active="no" number="9"/>
+  <layer color="1" fill="7" visible="no" name="Route10" active="no" number="10"/>
+  <layer color="4" fill="7" visible="no" name="Route11" active="no" number="11"/>
+  <layer color="1" fill="5" visible="no" name="Route12" active="no" number="12"/>
+  <layer color="4" fill="5" visible="no" name="Route13" active="no" number="13"/>
+  <layer color="1" fill="6" visible="no" name="Route14" active="no" number="14"/>
+  <layer color="4" fill="6" visible="no" name="Route15" active="no" number="15"/>
+  <layer color="1" fill="1" visible="yes" name="Bottom" active="yes" number="16"/>
+  <layer color="2" fill="1" visible="yes" name="Pads" active="yes" number="17"/>
+  <layer color="2" fill="1" visible="yes" name="Vias" active="yes" number="18"/>
+  <layer color="6" fill="1" visible="yes" name="Unrouted" active="yes" number="19"/>
+  <layer color="24" fill="1" visible="yes" name="Dimension" active="yes" number="20"/>
+  <layer color="7" fill="1" visible="yes" name="tPlace" active="yes" number="21"/>
+  <layer color="7" fill="1" visible="yes" name="bPlace" active="yes" number="22"/>
+  <layer color="15" fill="1" visible="yes" name="tOrigins" active="yes" number="23"/>
+  <layer color="15" fill="1" visible="yes" name="bOrigins" active="yes" number="24"/>
+  <layer color="7" fill="1" visible="yes" name="tNames" active="yes" number="25"/>
+  <layer color="7" fill="1" visible="yes" name="bNames" active="yes" number="26"/>
+  <layer color="7" fill="1" visible="yes" name="tValues" active="yes" number="27"/>
+  <layer color="7" fill="1" visible="yes" name="bValues" active="yes" number="28"/>
+  <layer color="7" fill="3" visible="yes" name="tStop" active="yes" number="29"/>
+  <layer color="7" fill="6" visible="yes" name="bStop" active="yes" number="30"/>
+  <layer color="7" fill="4" visible="yes" name="tCream" active="yes" number="31"/>
+  <layer color="7" fill="5" visible="yes" name="bCream" active="yes" number="32"/>
+  <layer color="6" fill="3" visible="yes" name="tFinish" active="yes" number="33"/>
+  <layer color="6" fill="6" visible="yes" name="bFinish" active="yes" number="34"/>
+  <layer color="7" fill="4" visible="yes" name="tGlue" active="yes" number="35"/>
+  <layer color="7" fill="5" visible="yes" name="bGlue" active="yes" number="36"/>
+  <layer color="7" fill="1" visible="yes" name="tTest" active="yes" number="37"/>
+  <layer color="7" fill="1" visible="yes" name="bTest" active="yes" number="38"/>
+  <layer color="4" fill="11" visible="yes" name="tKeepout" active="yes" number="39"/>
+  <layer color="1" fill="11" visible="yes" name="bKeepout" active="yes" number="40"/>
+  <layer color="4" fill="10" visible="yes" name="tRestrict" active="yes" number="41"/>
+  <layer color="1" fill="10" visible="yes" name="bRestrict" active="yes" number="42"/>
+  <layer color="2" fill="10" visible="yes" name="vRestrict" active="yes" number="43"/>
+  <layer color="7" fill="1" visible="yes" name="Drills" active="yes" number="44"/>
+  <layer color="7" fill="1" visible="yes" name="Holes" active="yes" number="45"/>
+  <layer color="3" fill="1" visible="yes" name="Milling" active="yes" number="46"/>
+  <layer color="7" fill="1" visible="yes" name="Measures" active="yes" number="47"/>
+  <layer color="7" fill="1" visible="yes" name="Document" active="yes" number="48"/>
+  <layer color="7" fill="1" visible="yes" name="Reference" active="yes" number="49"/>
+  <layer color="7" fill="1" visible="no" name="dxf" active="no" number="50"/>
+  <layer color="7" fill="1" visible="yes" name="tDocu" active="yes" number="51"/>
+  <layer color="7" fill="1" visible="yes" name="bDocu" active="yes" number="52"/>
+  <layer color="7" fill="9" visible="no" name="tGND_GNDA" active="no" number="53"/>
+  <layer color="1" fill="9" visible="no" name="bGND_GNDA" active="no" number="54"/>
+  <layer color="7" fill="1" visible="no" name="wert" active="no" number="56"/>
+  <layer color="7" fill="1" visible="no" name="tCAD" active="no" number="57"/>
+  <layer color="7" fill="1" visible="no" name="tCarbon" active="no" number="59"/>
+  <layer color="7" fill="1" visible="no" name="bCarbon" active="no" number="60"/>
+  <layer color="9" fill="1" visible="yes" name="SimResults" active="yes" number="88"/>
+  <layer color="9" fill="1" visible="yes" name="SimProbes" active="yes" number="89"/>
+  <layer color="5" fill="1" visible="yes" name="Modules" active="yes" number="90"/>
+  <layer color="2" fill="1" visible="yes" name="Nets" active="yes" number="91"/>
+  <layer color="1" fill="1" visible="yes" name="Busses" active="yes" number="92"/>
+  <layer color="2" fill="1" visible="yes" name="Pins" active="yes" number="93"/>
+  <layer color="4" fill="1" visible="yes" name="Symbols" active="yes" number="94"/>
+  <layer color="7" fill="1" visible="yes" name="Names" active="yes" number="95"/>
+  <layer color="7" fill="1" visible="yes" name="Values" active="yes" number="96"/>
+  <layer color="7" fill="1" visible="yes" name="Info" active="yes" number="97"/>
+  <layer color="6" fill="1" visible="yes" name="Guide" active="yes" number="98"/>
+  <layer color="7" fill="1" visible="yes" name="SpiceOrder" active="yes" number="99"/>
+  <layer color="7" fill="1" visible="no" name="Muster" active="no" number="100"/>
+  <layer color="12" fill="4" visible="no" name="Patch_Top" active="no" number="101"/>
+  <layer color="7" fill="1" visible="no" name="Vscore" active="no" number="102"/>
+  <layer color="7" fill="1" visible="no" name="tMap" active="no" number="103"/>
+  <layer color="16" fill="1" visible="no" name="Name" active="no" number="104"/>
+  <layer color="7" fill="1" visible="no" name="tPlate" active="no" number="105"/>
+  <layer color="7" fill="1" visible="no" name="bPlate" active="no" number="106"/>
+  <layer color="7" fill="1" visible="no" name="Crop" active="no" number="107"/>
+  <layer color="10" fill="1" visible="no" name="tplace-old" active="no" number="108"/>
+  <layer color="11" fill="1" visible="no" name="ref-old" active="no" number="109"/>
+  <layer color="7" fill="1" visible="no" name="fp0" active="no" number="110"/>
+  <layer color="7" fill="1" visible="no" name="LPC17xx" active="no" number="111"/>
+  <layer color="7" fill="1" visible="no" name="tSilk" active="no" number="112"/>
+  <layer color="4" fill="1" visible="no" name="IDFDebug" active="no" number="113"/>
+  <layer color="7" fill="1" visible="no" name="Badge_Outline" active="no" number="114"/>
+  <layer color="7" fill="1" visible="no" name="ReferenceISLANDS" active="no" number="115"/>
+  <layer color="9" fill="4" visible="no" name="Patch_BOT" active="no" number="116"/>
+  <layer color="7" fill="1" visible="yes" name="PM_Ref" active="yes" number="117"/>
+  <layer color="7" fill="1" visible="no" name="Rect_Pads" active="no" number="118"/>
+  <layer color="7" fill="1" visible="yes" name="PF_Ref" active="yes" number="119"/>
+  <layer color="7" fill="1" visible="yes" name="WFL_Ref" active="yes" number="120"/>
+  <layer color="7" fill="1" visible="no" name="_tsilk" active="no" number="121"/>
+  <layer color="7" fill="1" visible="no" name="_bsilk" active="no" number="122"/>
+  <layer color="7" fill="1" visible="no" name="tTestmark" active="no" number="123"/>
+  <layer color="7" fill="1" visible="no" name="bTestmark" active="no" number="124"/>
+  <layer color="7" fill="1" visible="no" name="_tNames" active="no" number="125"/>
+  <layer color="7" fill="1" visible="no" name="_bNames" active="no" number="126"/>
+  <layer color="7" fill="1" visible="no" name="_tValues" active="no" number="127"/>
+  <layer color="7" fill="1" visible="no" name="_bValues" active="no" number="128"/>
+  <layer color="7" fill="1" visible="no" name="Mask" active="no" number="129"/>
+  <layer color="7" fill="1" visible="no" name="tAdjust" active="no" number="131"/>
+  <layer color="7" fill="1" visible="no" name="bAdjust" active="no" number="132"/>
+  <layer color="7" fill="1" visible="no" name="Drill_legend" active="no" number="144"/>
+  <layer color="7" fill="1" visible="no" name="Notes" active="no" number="150"/>
+  <layer color="7" fill="1" visible="no" name="HeatSink" active="no" number="151"/>
+  <layer color="7" fill="1" visible="no" name="_bDocu" active="no" number="152"/>
+  <layer color="7" fill="1" visible="no" name="FabDoc1" active="no" number="153"/>
+  <layer color="7" fill="1" visible="no" name="FabDoc2" active="no" number="154"/>
+  <layer color="7" fill="1" visible="no" name="FabDoc3" active="no" number="155"/>
+  <layer color="7" fill="1" visible="no" name="Contour" active="no" number="199"/>
+  <layer color="1" fill="10" visible="no" name="200bmp" active="no" number="200"/>
+  <layer color="2" fill="10" visible="no" name="201bmp" active="no" number="201"/>
+  <layer color="3" fill="10" visible="no" name="202bmp" active="no" number="202"/>
+  <layer color="4" fill="10" visible="no" name="203bmp" active="no" number="203"/>
+  <layer color="5" fill="10" visible="no" name="204bmp" active="no" number="204"/>
+  <layer color="6" fill="10" visible="no" name="205bmp" active="no" number="205"/>
+  <layer color="7" fill="10" visible="no" name="206bmp" active="no" number="206"/>
+  <layer color="8" fill="10" visible="no" name="207bmp" active="no" number="207"/>
+  <layer color="9" fill="10" visible="no" name="208bmp" active="no" number="208"/>
+  <layer color="7" fill="1" visible="no" name="209bmp" active="no" number="209"/>
+  <layer color="7" fill="1" visible="no" name="210bmp" active="no" number="210"/>
+  <layer color="7" fill="1" visible="no" name="211bmp" active="no" number="211"/>
+  <layer color="7" fill="1" visible="no" name="212bmp" active="no" number="212"/>
+  <layer color="7" fill="1" visible="no" name="213bmp" active="no" number="213"/>
+  <layer color="7" fill="1" visible="no" name="214bmp" active="no" number="214"/>
+  <layer color="7" fill="1" visible="no" name="215bmp" active="no" number="215"/>
+  <layer color="7" fill="1" visible="no" name="216bmp" active="no" number="216"/>
+  <layer color="18" fill="1" visible="no" name="217bmp" active="no" number="217"/>
+  <layer color="19" fill="1" visible="no" name="218bmp" active="no" number="218"/>
+  <layer color="20" fill="1" visible="no" name="219bmp" active="no" number="219"/>
+  <layer color="21" fill="1" visible="no" name="220bmp" active="no" number="220"/>
+  <layer color="22" fill="1" visible="no" name="221bmp" active="no" number="221"/>
+  <layer color="23" fill="1" visible="no" name="222bmp" active="no" number="222"/>
+  <layer color="24" fill="1" visible="no" name="223bmp" active="no" number="223"/>
+  <layer color="25" fill="1" visible="no" name="224bmp" active="no" number="224"/>
+  <layer color="7" fill="1" visible="no" name="225bmp" active="no" number="225"/>
+  <layer color="7" fill="1" visible="no" name="226bmp" active="no" number="226"/>
+  <layer color="7" fill="1" visible="no" name="227bmp" active="no" number="227"/>
+  <layer color="7" fill="1" visible="no" name="228bmp" active="no" number="228"/>
+  <layer color="7" fill="1" visible="no" name="229bmp" active="no" number="229"/>
+  <layer color="7" fill="1" visible="no" name="230bmp" active="no" number="230"/>
+  <layer color="7" fill="1" visible="no" name="231bmp" active="no" number="231"/>
+  <layer color="7" fill="1" visible="no" name="Eagle3D_PG2" active="no" number="232"/>
+  <layer color="7" fill="1" visible="no" name="Eagle3D_PG3" active="no" number="233"/>
+  <layer color="7" fill="1" visible="no" name="Housing" active="no" number="248"/>
+  <layer color="7" fill="1" visible="no" name="Edge" active="no" number="249"/>
+  <layer color="3" fill="1" visible="no" name="Descript" active="no" number="250"/>
+  <layer color="12" fill="11" visible="no" name="SMDround" active="no" number="251"/>
+  <layer color="7" fill="1" visible="no" name="cooling" active="no" number="254"/>
+  <layer color="7" fill="1" visible="no" name="routoute" active="no" number="255"/>
+ </layers>
+<library>
+<description>&lt;b&gt;https://eagle.componentsearchengine.com&lt;/b&gt;&lt;p&gt;&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+ <package name="3.5MM_JACK_TX36805NB">
+  <description>&lt;b>STX-3680-5NB-1&lt;/b>&lt;br>
+</description>
+  <pad shape="long" x="0" drill="0.508" name="1.EARTH" diameter="1.27" y="0"/>
+  <pad shape="long" x="-1.7" drill="0.508" name="2.TIP" diameter="1.27" y="5"/>
+  <pad shape="long" x="2.2" drill="0.508" name="3.RING" diameter="1.27" y="-4"/>
+  <pad shape="long" x="1.7" drill="0.508" name="4.TIPNORM" diameter="1.27" y="2.5"/>
+  <pad shape="long" x="-2.2" drill="0.508" name="5.RINGNORM" diameter="1.27" y="-2.5"/>
+  <text x="0.325" align="center" layer="25" y="8.9" size="1.27">>NAME</text>
+  <text x="-0.175" align="center" layer="27" y="-9.1" size="1.27">>VALUE</text>
+  <wire x2="5" y1="7.25" x1="-5" y2="7.25" width="0.127" layer="51"/>
+  <wire x2="5" y1="7.25" x1="5" y2="-7.25" width="0.127" layer="51"/>
+  <wire x2="-5" y1="-7.25" x1="5" y2="-7.25" width="0.127" layer="51"/>
+  <wire x2="-5" y1="-7.25" x1="-5" y2="7.25" width="0.127" layer="51"/>
+  <wire x2="-0.75" y1="5.25" x1="-2.75" y2="5.25" width="0.127" layer="46"/>
+  <wire x2="-0.75" y1="4.75" x1="-2.75" y2="4.75" width="0.127" layer="46"/>
+  <wire x2="-0.75" y1="5.25" x1="-2.75" y2="5.25" width="0.127" layer="46"/>
+  <wire x2="-0.75" y1="5.25" x1="-0.75" y2="4.75" width="0.127" layer="46"/>
+  <wire x2="-2.75" y1="4.75" x1="-2.75" y2="5.25" width="0.127" layer="46"/>
+  <wire x2="0.95" y1="-0.25" x1="-1.05" y2="-0.25" width="0.127" layer="46"/>
+  <wire x2="0.95" y1="0.25" x1="-1.05" y2="0.25" width="0.127" layer="46"/>
+  <wire x2="0.95" y1="0.25" x1="0.95" y2="-0.25" width="0.127" layer="46"/>
+  <wire x2="-1.05" y1="-0.25" x1="-1.05" y2="0.25" width="0.127" layer="46"/>
+  <wire x2="2.65" y1="2.25" x1="0.65" y2="2.25" width="0.127" layer="46"/>
+  <wire x2="2.65" y1="2.75" x1="0.65" y2="2.75" width="0.127" layer="46"/>
+  <wire x2="2.65" y1="2.75" x1="2.65" y2="2.25" width="0.127" layer="46"/>
+  <wire x2="0.65" y1="2.25" x1="0.65" y2="2.75" width="0.127" layer="46"/>
+  <wire x2="-1.25" y1="-2.75" x1="-3.25" y2="-2.75" width="0.127" layer="46"/>
+  <wire x2="-1.25" y1="-2.25" x1="-3.25" y2="-2.25" width="0.127" layer="46"/>
+  <wire x2="-1.25" y1="-2.25" x1="-1.25" y2="-2.75" width="0.127" layer="46"/>
+  <wire x2="-3.25" y1="-2.75" x1="-3.25" y2="-2.25" width="0.127" layer="46"/>
+  <wire x2="3.15" y1="-4.25" x1="1.15" y2="-4.25" width="0.127" layer="46"/>
+  <wire x2="3.15" y1="-3.75" x1="1.15" y2="-3.75" width="0.127" layer="46"/>
+  <wire x2="3.15" y1="-3.75" x1="3.15" y2="-4.25" width="0.127" layer="46"/>
+  <wire x2="1.15" y1="-4.25" x1="1.15" y2="-3.75" width="0.127" layer="46"/>
+ </package>
+ <package name="ZIF_527450897">
+  <description>&lt;b>52745-0897&lt;/b>&lt;br></description>
+  <smd rot="R90" x="-2" dy="0.3" name="1" layer="1" dx="0.8" y="2.956"/>
+  <smd rot="R90" x="-1.5" dy="0.3" name="2" layer="1" dx="0.8" y="2.956"/>
+  <smd rot="R90" x="-1" dy="0.3" name="3" layer="1" dx="0.8" y="2.956"/>
+  <smd rot="R90" x="-0.5" dy="0.3" name="4" layer="1" dx="0.8" y="2.956"/>
+  <smd rot="R90" x="0" dy="0.3" name="5" layer="1" dx="0.8" y="2.956"/>
+  <smd rot="R90" x="0.5" dy="0.3" name="6" layer="1" dx="0.8" y="2.956"/>
+  <smd rot="R90" x="1" dy="0.3" name="7" layer="1" dx="0.8" y="2.956"/>
+  <smd rot="R90" x="1.5" dy="0.3" name="8" layer="1" dx="0.8" y="2.956"/>
+  <smd rot="R90" x="-4.45" dy="2.4" name="9" layer="1" dx="3.05" y="1.031"/>
+  <smd rot="R90" x="3.95" dy="2.4" name="10" layer="1" dx="3.05" y="1.031"/>
+  <text x="0" align="center" layer="25" y="0.2" size="1.27">>NAME</text>
+  <text x="0" align="center" layer="27" y="-1.8" size="1.27">>VALUE</text>
+  <wire x2="4.8" y1="2.744" x1="-5.3" y2="2.744" width="0.2" layer="51"/>
+  <wire x2="4.8" y1="2.744" x1="4.8" y2="-2.956" width="0.2" layer="51"/>
+  <wire x2="-5.3" y1="-2.956" x1="4.8" y2="-2.956" width="0.2" layer="51"/>
+  <wire x2="-5.3" y1="-2.956" x1="-5.3" y2="2.744" width="0.2" layer="51"/>
+  <wire x2="6.65" y1="4.356" x1="-6.65" y2="4.356" width="0.1" layer="51"/>
+  <wire x2="6.65" y1="4.356" x1="6.65" y2="-3.956" width="0.1" layer="51"/>
+  <wire x2="-6.65" y1="-3.956" x1="6.65" y2="-3.956" width="0.1" layer="51"/>
+  <wire x2="-6.65" y1="-3.956" x1="-6.65" y2="4.356" width="0.1" layer="51"/>
+  <wire x2="-5.3" y1="-1.256" x1="-5.3" y2="-2.956" width="0.1" layer="21"/>
+  <wire x2="4.8" y1="-2.956" x1="-5.3" y2="-2.956" width="0.1" layer="21"/>
+  <wire x2="4.8" y1="-2.956" x1="4.8" y2="-1.256" width="0.1" layer="21"/>
+ </package>
+ <package name="PUSHUTTON_SKHMQLE010">
+  <description>&lt;b>SKHMQLE010&lt;/b>&lt;br>
+</description>
+  <smd x="-4.2" dy="1.4" name="1" layer="1" dx="1.6" y="2.25"/>
+  <smd x="4.2" dy="1.4" name="2" layer="1" dx="1.6" y="2.25"/>
+  <smd x="-4.2" dy="1.4" name="3" layer="1" dx="1.6" y="-2.25"/>
+  <smd x="4.2" dy="1.4" name="4" layer="1" dx="1.6" y="-2.25"/>
+  <smd x="4.2" dy="1.4" name="5" layer="1" dx="1.6" y="0"/>
+  <text x="-0.583" align="center" layer="25" y="0.106" size="1.27">>NAME</text>
+  <text x="-0.583" align="center" layer="27" y="0.106" size="1.27">>VALUE</text>
+  <wire x2="3.1" y1="3.25" x1="-3.1" y2="3.25" width="0.2" layer="51"/>
+  <wire x2="3.1" y1="3.25" x1="3.1" y2="-3.25" width="0.2" layer="51"/>
+  <wire x2="-3.1" y1="-3.25" x1="3.1" y2="-3.25" width="0.2" layer="51"/>
+  <wire x2="-3.1" y1="-3.25" x1="-3.1" y2="3.25" width="0.2" layer="51"/>
+  <wire x2="-3.1" y1="3.25" x1="-3.1" y2="-3.25" width="0.2" layer="21"/>
+  <wire x2="3.1" y1="-3.25" x1="-3.1" y2="-3.25" width="0.2" layer="21"/>
+  <wire x2="3.1" y1="-3.25" x1="3.1" y2="3.25" width="0.2" layer="21"/>
+  <wire x2="-3.1" y1="3.25" x1="3.1" y2="3.25" width="0.2" layer="21"/>
+  <circle radius="0.052" x="-5.742" width="0.2" layer="25" y="2.314"/>
+ </package>
+ <package name="ROT_ENCODER_E33_VT">
+  <description>&lt;b>E33-VT632-M11T&lt;/b>&lt;br>
+</description>
+  <pad x="-5.08" drill="1" name="1" diameter="1.5" y="-6.85"/>
+  <pad x="-2.54" drill="1" name="2" diameter="1.5" y="-6.85"/>
+  <pad x="0" drill="1" name="3" diameter="1.5" y="-6.85"/>
+  <pad x="2.54" drill="1" name="4" diameter="1.5" y="-6.85"/>
+  <pad x="5.08" drill="1" name="5" diameter="1.5" y="-6.85"/>
+  <pad x="-5.75" drill="3.25" name="6" diameter="4.875" y="0"/>
+  <pad x="5.75" drill="3.25" name="7" diameter="4.875" y="0"/>
+  <text x="0" align="center" layer="27" y="-0.925" size="1.27">>VALUE</text>
+  <text x="0" align="center" layer="25" y="-0.925" size="1.27">>NAME</text>
+  <wire x2="6.15" y1="5.75" x1="-6.15" y2="5.75" width="0.2" layer="51"/>
+  <wire x2="6.15" y1="5.75" x1="6.15" y2="-5.75" width="0.2" layer="51"/>
+  <wire x2="-6.15" y1="-5.75" x1="6.15" y2="-5.75" width="0.2" layer="51"/>
+  <wire x2="-6.15" y1="-5.75" x1="-6.15" y2="5.75" width="0.2" layer="51"/>
+  <wire x2="11.057" y1="6.75" x1="-11.057" y2="6.75" width="0.1" layer="51"/>
+  <wire x2="11.057" y1="6.75" x1="11.057" y2="-8.6" width="0.1" layer="51"/>
+  <wire x2="-11.057" y1="-8.6" x1="11.057" y2="-8.6" width="0.1" layer="51"/>
+  <wire x2="-11.057" y1="-8.6" x1="-11.057" y2="6.75" width="0.1" layer="51"/>
+  <wire x2="-6.15" y1="2.95" x1="-6.15" y2="5.75" width="0.1" layer="21"/>
+  <wire x2="6.15" y1="5.75" x1="-6.15" y2="5.75" width="0.1" layer="21"/>
+  <wire x2="6.15" y1="5.75" x1="6.15" y2="2.95" width="0.1" layer="21"/>
+  <wire x2="-6.15" y1="-2.95" x1="-6.15" y2="-5.75" width="0.1" layer="21"/>
+  <wire x2="6.15" y1="-5.75" x1="-6.15" y2="-5.75" width="0.1" layer="21"/>
+  <wire x2="6.15" y1="-5.75" x1="6.15" y2="-2.95" width="0.1" layer="21"/>
+ </package>
+ <package name="OPTO_DARLINGTON_SOIC127P594X363-8N">
+  <description>&lt;b>SOIC8 CASE 751DZ ISSUE O&lt;/b>&lt;br>
+</description>
+  <smd x="-2.725" dy="0.7" name="1" layer="1" dx="1.45" y="1.905"/>
+  <smd x="-2.725" dy="0.7" name="2" layer="1" dx="1.45" y="0.635"/>
+  <smd x="-2.725" dy="0.7" name="3" layer="1" dx="1.45" y="-0.635"/>
+  <smd x="-2.725" dy="0.7" name="4" layer="1" dx="1.45" y="-1.905"/>
+  <smd x="2.725" dy="0.7" name="5" layer="1" dx="1.45" y="-1.905"/>
+  <smd x="2.725" dy="0.7" name="6" layer="1" dx="1.45" y="-0.635"/>
+  <smd x="2.725" dy="0.7" name="7" layer="1" dx="1.45" y="0.635"/>
+  <smd x="2.725" dy="0.7" name="8" layer="1" dx="1.45" y="1.905"/>
+  <text x="0" align="center" layer="25" y="0" size="1.27">>NAME</text>
+  <text x="0" align="center" layer="27" y="0" size="1.27">>VALUE</text>
+  <wire x2="3.7" y1="2.815" x1="-3.7" y2="2.815" width="0.05" layer="51"/>
+  <wire x2="3.7" y1="2.815" x1="3.7" y2="-2.815" width="0.05" layer="51"/>
+  <wire x2="-3.7" y1="-2.815" x1="3.7" y2="-2.815" width="0.05" layer="51"/>
+  <wire x2="-3.7" y1="-2.815" x1="-3.7" y2="2.815" width="0.05" layer="51"/>
+  <wire x2="1.955" y1="2.44" x1="-1.955" y2="2.44" width="0.1" layer="51"/>
+  <wire x2="1.955" y1="2.44" x1="1.955" y2="-2.44" width="0.1" layer="51"/>
+  <wire x2="-1.955" y1="-2.44" x1="1.955" y2="-2.44" width="0.1" layer="51"/>
+  <wire x2="-1.955" y1="-2.44" x1="-1.955" y2="2.44" width="0.1" layer="51"/>
+  <wire x2="-0.685" y1="1.17" x1="-1.955" y2="2.44" width="0.1" layer="51"/>
+  <wire x2="1.65" y1="2.44" x1="-1.65" y2="2.44" width="0.2" layer="21"/>
+  <wire x2="1.65" y1="2.44" x1="1.65" y2="-2.44" width="0.2" layer="21"/>
+  <wire x2="-1.65" y1="-2.44" x1="1.65" y2="-2.44" width="0.2" layer="21"/>
+  <wire x2="-1.65" y1="-2.44" x1="-1.65" y2="2.44" width="0.2" layer="21"/>
+  <circle radius="0.2" x="-3.556" width="0" layer="21" y="2.667"/>
+ </package>
+ <package name="GW22LHP">
+  <description>&lt;b>GW22LHP-3&lt;/b>&lt;br>
+</description>
+  <pad shape="square" x="0" drill="0.6" name="1" diameter="1" y="0"/>
+  <pad x="0" drill="0.6" name="2" diameter="1" y="-2.54"/>
+  <pad x="0" drill="0.6" name="3" diameter="1" y="-5.08"/>
+  <pad x="-2.54" drill="0.6" name="4" diameter="1" y="0"/>
+  <pad x="-2.54" drill="0.6" name="5" diameter="1" y="-2.54"/>
+  <pad x="-2.54" drill="0.6" name="6" diameter="1" y="-5.08"/>
+  <text x="-1.27" align="center" layer="25" y="-2.54" size="1.27">>NAME</text>
+  <text x="-1.27" align="center" layer="27" y="-2.54" size="1.27">>VALUE</text>
+  <wire x2="-3.52" y1="0.96" x1="0.98" y2="0.96" width="0.2" layer="51"/>
+  <wire x2="-3.52" y1="0.96" x1="-3.52" y2="-6.04" width="0.2" layer="51"/>
+  <wire x2="0.98" y1="-6.04" x1="-3.52" y2="-6.04" width="0.2" layer="51"/>
+  <wire x2="0.98" y1="-6.04" x1="0.98" y2="0.96" width="0.2" layer="51"/>
+  <wire x2="0.98" y1="0.96" x1="-3.52" y2="0.96" width="0.1" layer="21"/>
+  <wire x2="0.98" y1="0.96" x1="0.98" y2="-6.04" width="0.1" layer="21"/>
+  <wire x2="-3.52" y1="-6.04" x1="0.98" y2="-6.04" width="0.1" layer="21"/>
+  <wire x2="-3.52" y1="-6.04" x1="-3.52" y2="0.96" width="0.1" layer="21"/>
+  <wire x2="1.98" y1="1.96" x1="-4.52" y2="1.96" width="0.1" layer="51"/>
+  <wire x2="1.98" y1="1.96" x1="1.98" y2="-7.04" width="0.1" layer="51"/>
+  <wire x2="-4.52" y1="-7.04" x1="1.98" y2="-7.04" width="0.1" layer="51"/>
+  <wire x2="-4.52" y1="-7.04" x1="-4.52" y2="1.96" width="0.1" layer="51"/>
+ </package>
+ <package name="SN74AHCT_DIP794W53P254L1930H508Q14N">
+  <description>&lt;b>N (R-PDIP-T14)&lt;/b>&lt;br>
+</description>
+  <pad shape="square" x="-3.97" drill="0.73" name="1" diameter="1.13" y="7.62"/>
+  <pad x="-3.97" drill="0.73" name="2" diameter="1.13" y="5.08"/>
+  <pad x="-3.97" drill="0.73" name="3" diameter="1.13" y="2.54"/>
+  <pad x="-3.97" drill="0.73" name="4" diameter="1.13" y="0"/>
+  <pad x="-3.97" drill="0.73" name="5" diameter="1.13" y="-2.54"/>
+  <pad x="-3.97" drill="0.73" name="6" diameter="1.13" y="-5.08"/>
+  <pad x="-3.97" drill="0.73" name="7" diameter="1.13" y="-7.62"/>
+  <pad x="3.97" drill="0.73" name="8" diameter="1.13" y="-7.62"/>
+  <pad x="3.97" drill="0.73" name="9" diameter="1.13" y="-5.08"/>
+  <pad x="3.97" drill="0.73" name="10" diameter="1.13" y="-2.54"/>
+  <pad x="3.97" drill="0.73" name="11" diameter="1.13" y="0"/>
+  <pad x="3.97" drill="0.73" name="12" diameter="1.13" y="2.54"/>
+  <pad x="3.97" drill="0.73" name="13" diameter="1.13" y="5.08"/>
+  <pad x="3.97" drill="0.73" name="14" diameter="1.13" y="7.62"/>
+  <text x="0" align="center" layer="25" y="0" size="1.27">>NAME</text>
+  <text x="0" align="center" layer="27" y="0" size="1.27">>VALUE</text>
+  <wire x2="4.945" y1="10.095" x1="-4.945" y2="10.095" width="0.05" layer="51"/>
+  <wire x2="4.945" y1="10.095" x1="4.945" y2="-10.095" width="0.05" layer="51"/>
+  <wire x2="-4.945" y1="-10.095" x1="4.945" y2="-10.095" width="0.05" layer="51"/>
+  <wire x2="-4.945" y1="-10.095" x1="-4.945" y2="10.095" width="0.05" layer="51"/>
+  <wire x2="3.3" y1="9.845" x1="-3.3" y2="9.845" width="0.1" layer="51"/>
+  <wire x2="3.3" y1="9.845" x1="3.3" y2="-9.845" width="0.1" layer="51"/>
+  <wire x2="-3.3" y1="-9.845" x1="3.3" y2="-9.845" width="0.1" layer="51"/>
+  <wire x2="-3.3" y1="-9.845" x1="-3.3" y2="9.845" width="0.1" layer="51"/>
+  <wire x2="-2.03" y1="8.575" x1="-3.3" y2="9.845" width="0.1" layer="51"/>
+  <wire x2="3.3" y1="9.845" x1="-4.535" y2="9.845" width="0.2" layer="21"/>
+  <wire x2="3.3" y1="-9.845" x1="-3.3" y2="-9.845" width="0.2" layer="21"/>
+ </package>
+ <package name="ROT_ENCODER_E33_SMT">
+  <description>&lt;b>E33-VT632-M11T&lt;/b>&lt;br>
+</description>
+  <text x="0" align="center" layer="27" y="-0.925" size="1.27">>VALUE</text>
+  <text x="0" align="center" layer="25" y="-0.925" size="1.27">>NAME</text>
+  <wire x2="6.15" y1="5.75" x1="-6.15" y2="5.75" width="0.2" layer="51"/>
+  <wire x2="6.15" y1="5.75" x1="6.15" y2="-5.75" width="0.2" layer="51"/>
+  <wire x2="-6.15" y1="-5.75" x1="6.15" y2="-5.75" width="0.2" layer="51"/>
+  <wire x2="-6.15" y1="-5.75" x1="-6.15" y2="5.75" width="0.2" layer="51"/>
+  <wire x2="11.057" y1="6.75" x1="-11.057" y2="6.75" width="0.1" layer="51"/>
+  <wire x2="11.057" y1="6.75" x1="11.057" y2="-9.87" width="0.1" layer="51"/>
+  <wire x2="-11.057" y1="-9.87" x1="11.057" y2="-9.87" width="0.1" layer="51"/>
+  <wire x2="-11.057" y1="-9.87" x1="-11.057" y2="6.75" width="0.1" layer="51"/>
+  <wire x2="-6.15" y1="2.95" x1="-6.15" y2="5.75" width="0.1" layer="21"/>
+  <wire x2="6.15" y1="5.75" x1="-6.15" y2="5.75" width="0.1" layer="21"/>
+  <wire x2="6.15" y1="5.75" x1="6.15" y2="2.95" width="0.1" layer="21"/>
+  <wire x2="-6.15" y1="-2.95" x1="-6.15" y2="-5.75" width="0.1" layer="21"/>
+  <wire x2="6.15" y1="-5.75" x1="-6.15" y2="-5.75" width="0.1" layer="21"/>
+  <wire x2="6.15" y1="-5.75" x1="6.15" y2="-2.95" width="0.1" layer="21"/>
+  <smd rot="R90" x="-5.08" dy="1.27" name="B" layer="1" dx="2.54" y="-8.128"/>
+  <smd rot="R90" x="-2.54" dy="1.27" name="S1" layer="1" dx="2.54" y="-8.128"/>
+  <smd rot="R90" x="0" dy="1.27" name="S2" layer="1" dx="2.54" y="-8.128"/>
+  <smd rot="R90" x="2.54" dy="1.27" name="C" layer="1" dx="2.54" y="-8.128"/>
+  <smd rot="R90" x="5.08" dy="1.27" name="A" layer="1" dx="2.54" y="-8.128"/>
+  <smd rot="R90" x="-7.62" dy="2.54" name="P$6" layer="1" dx="12.7" y="0"/>
+  <smd rot="R90" x="7.62" dy="2.54" name="P$8" layer="1" dx="12.7" y="0"/>
+  <hole x="-5.715" drill="1" y="0"/>
+  <hole x="5.715" drill="1" y="-0.127"/>
+ </package>
+ <package name="ISSI">
+  <wire x2="-12.7" y1="5.41" x1="12.7" y2="5.41" width="0.127" layer="51"/>
+  <wire x2="-12.7" y1="5.41" x1="-12.7" y2="-5.41" width="0.127" layer="51"/>
+  <wire x2="12.7" y1="-5.41" x1="-12.7" y2="-5.41" width="0.127" layer="51"/>
+  <wire x2="12.7" y1="-5.41" x1="12.7" y2="5.41" width="0.127" layer="51"/>
+  <pad shape="square" x="8.89" drill="1" name="SDB" y="-2.54"/>
+  <pad shape="square" x="8.89" drill="1" name="IICRST" y="0"/>
+  <pad shape="square" x="6.35" drill="1" name="SCL" y="-2.54"/>
+  <pad shape="square" x="3.81" drill="1" name="SDA" y="-2.54"/>
+  <pad shape="square" x="-11.43" drill="1" name="GND" y="-2.54"/>
+  <pad shape="square" x="-11.43" drill="1" name="VCC" y="2.54"/>
+ </package>
+ <package name="PUSHBUTTON_PG1232">
+  <pad x="4.58" drill="1.2" name="1" y="5.1"/>
+  <pad x="-2" drill="1.2" name="2" y="5.41"/>
+  <pad x="5.29" drill="1.2" name="NOTCONNECTED4" y="-4.75"/>
+  <pad x="-5.29" drill="1.2" name="NOTCONNECTED3" y="-4.75"/>
+  <wire x2="-5.927" y1="-2.97" x1="5.927" y2="-2.97" width="0.127" layer="46"/>
+  <wire x2="2.7" y1="2.97" x1="5.927" y2="2.97" width="0.127" layer="46"/>
+  <wire x2="-5.927" y1="2.97" x1="-2.7" y2="2.97" width="0.127" layer="46"/>
+  <wire x2="2.65" y1="4" x1="-2.65" y2="4" width="0.127" layer="46"/>
+  <wire x2="5.927" y1="2.97" x1="5.927" y2="-2.97" width="0.127" layer="46"/>
+  <wire x2="-5.927" y1="2.97" x1="-5.927" y2="-2.97" width="0.127" layer="46"/>
+  <wire x2="2.7" y1="4" x1="2.7" y2="2.97" width="0.127" layer="46"/>
+  <wire x2="-2.7" y1="4" x1="-2.7" y2="2.97" width="0.127" layer="46"/>
+  <wire x2="7.25" y1="6.75" x1="-7.25" y2="6.75" width="0.127" layer="51"/>
+  <wire x2="7.25" y1="6.75" x1="7.25" y2="-6.75" width="0.127" layer="51"/>
+  <wire x2="-7.25" y1="-6.75" x1="7.25" y2="-6.75" width="0.127" layer="51"/>
+  <wire x2="-7.25" y1="-6.75" x1="-7.25" y2="6.75" width="0.127" layer="51"/>
+ </package>
+ <package name="SOIC127P600X175-14N">
+  <description>&lt;b>LM139DT-1&lt;/b>&lt;br>&#xd;
+</description>
+  <smd rot="R0" x="-2.712" dy="0.7" name="1" layer="1" dx="1.525" y="3.81"/>
+  <smd rot="R0" x="-2.712" dy="0.7" name="2" layer="1" dx="1.525" y="2.54"/>
+  <smd rot="R0" x="-2.712" dy="0.7" name="3" layer="1" dx="1.525" y="1.27"/>
+  <smd rot="R0" x="-2.712" dy="0.7" name="4" layer="1" dx="1.525" y="0"/>
+  <smd rot="R0" x="-2.712" dy="0.7" name="5" layer="1" dx="1.525" y="-1.27"/>
+  <smd rot="R0" x="-2.712" dy="0.7" name="6" layer="1" dx="1.525" y="-2.54"/>
+  <smd rot="R0" x="-2.712" dy="0.7" name="7" layer="1" dx="1.525" y="-3.81"/>
+  <smd rot="R0" x="2.712" dy="0.7" name="8" layer="1" dx="1.525" y="-3.81"/>
+  <smd rot="R0" x="2.712" dy="0.7" name="9" layer="1" dx="1.525" y="-2.54"/>
+  <smd rot="R0" x="2.712" dy="0.7" name="10" layer="1" dx="1.525" y="-1.27"/>
+  <smd rot="R0" x="2.712" dy="0.7" name="11" layer="1" dx="1.525" y="0"/>
+  <smd rot="R0" x="2.712" dy="0.7" name="12" layer="1" dx="1.525" y="1.27"/>
+  <smd rot="R0" x="2.712" dy="0.7" name="13" layer="1" dx="1.525" y="2.54"/>
+  <smd rot="R0" x="2.712" dy="0.7" name="14" layer="1" dx="1.525" y="3.81"/>
+  <text rot="R0" x="0" align="center" layer="25" y="0" size="1.27">>NAME</text>
+  <text rot="R0" x="0" align="center" layer="27" y="0" size="1.27">>VALUE</text>
+  <wire x2="3.725" y1="4.625" x1="-3.725" y2="4.625" width="0.05" layer="51"/>
+  <wire x2="3.725" y1="4.625" x1="3.725" y2="-4.625" width="0.05" layer="51"/>
+  <wire x2="-3.725" y1="-4.625" x1="3.725" y2="-4.625" width="0.05" layer="51"/>
+  <wire x2="-3.725" y1="-4.625" x1="-3.725" y2="4.625" width="0.05" layer="51"/>
+  <wire x2="1.95" y1="4.325" x1="-1.95" y2="4.325" width="0.1" layer="51"/>
+  <wire x2="1.95" y1="4.325" x1="1.95" y2="-4.325" width="0.1" layer="51"/>
+  <wire x2="-1.95" y1="-4.325" x1="1.95" y2="-4.325" width="0.1" layer="51"/>
+  <wire x2="-1.95" y1="-4.325" x1="-1.95" y2="4.325" width="0.1" layer="51"/>
+  <wire x2="-0.68" y1="3.055" x1="-1.95" y2="4.325" width="0.1" layer="51"/>
+  <wire x2="1.6" y1="4.325" x1="-1.6" y2="4.325" width="0.2" layer="21"/>
+  <wire x2="1.6" y1="4.325" x1="1.6" y2="-4.325" width="0.2" layer="21"/>
+  <wire x2="-1.6" y1="-4.325" x1="1.6" y2="-4.325" width="0.2" layer="21"/>
+  <wire x2="-1.6" y1="-4.325" x1="-1.6" y2="4.325" width="0.2" layer="21"/>
+  <wire x2="-1.95" y1="4.51" x1="-3.475" y2="4.51" width="0.2" layer="21"/>
+ </package>
+ <package name="P120PKY20BR20K">
+  <description>&lt;b>P120PK&lt;/b>&lt;br>&#xd;
+</description>
+  <pad x="-3.750" drill="1.2" name="1" diameter="1.800" y="-10.000"/>
+  <pad x="0.000" drill="1.2" name="2" diameter="1.800" y="-10.000"/>
+  <pad x="3.750" drill="1.2" name="3" diameter="1.800" y="-10.000"/>
+  <pad x="-5.100" drill="3.6056" name="MH1" diameter="5.408" y="0.000"/>
+  <pad x="5.100" drill="3.6056" name="MH2" diameter="5.408" y="0.000"/>
+  <text rot="R0" x="0.000" align="center" layer="25" y="-2.575" size="1.27">>NAME</text>
+  <text rot="R0" x="0.000" align="center" layer="27" y="-2.575" size="1.27">>VALUE</text>
+  <wire x2="6.2" y1="6" x1="-6.2" y2="6" width="0.2" layer="51"/>
+  <wire x2="6.2" y1="6" x1="6.2" y2="-10" width="0.2" layer="51"/>
+  <wire x2="-6.2" y1="-10" x1="6.2" y2="-10" width="0.2" layer="51"/>
+  <wire x2="-6.2" y1="-10" x1="-6.2" y2="6" width="0.2" layer="51"/>
+  <wire x2="8.804" y1="7" x1="-8.804" y2="7" width="0.1" layer="51"/>
+  <wire x2="8.804" y1="7" x1="8.804" y2="-12.15" width="0.1" layer="51"/>
+  <wire x2="-8.804" y1="-12.15" x1="8.804" y2="-12.15" width="0.1" layer="51"/>
+  <wire x2="-8.804" y1="-12.15" x1="-8.804" y2="7" width="0.1" layer="51"/>
+  <wire x2="-6.2" y1="3" x1="-6.2" y2="6" width="0.1" layer="21"/>
+  <wire x2="6.2" y1="6" x1="-6.2" y2="6" width="0.1" layer="21"/>
+  <wire x2="6.2" y1="6" x1="6.2" y2="3" width="0.1" layer="21"/>
+  <wire x2="-6.2" y1="-3" x1="-6.2" y2="-10" width="0.1" layer="21"/>
+  <wire x2="-5" y1="-10" x1="-6.2" y2="-10" width="0.1" layer="21"/>
+  <wire x2="6.2" y1="-10" x1="5.1" y2="-10" width="0.1" layer="21"/>
+  <wire x2="6.2" y1="-10" x1="6.2" y2="-3" width="0.1" layer="21"/>
+  <wire x2="-3.8" y1="-11.1" x1="-3.8" y2="-11.1" width="0.1" layer="21"/>
+  <wire x2="-3.700" y1="-11.100" curve="-180.0" x1="-3.800" y2="-11.100" width="0.1" layer="21"/>
+  <wire x2="-3.7" y1="-11.1" x1="-3.7" y2="-11.1" width="0.1" layer="21"/>
+  <wire x2="-3.800" y1="-11.100" curve="-180.0" x1="-3.700" y2="-11.100" width="0.1" layer="21"/>
+ </package>
+</packages>
+<symbols>
+ <symbol name="3.5MM_JACK_STX-3680-5NB">
+  <description>&lt;h3> Audio Jack &lt;/h3>
+&lt;p> 3.5mm TRS Jack - with jack detect on each conductor&lt;/p></description>
+  <rectangle x2="-5.08" y1="-5.08" x1="-6.35" y2="7.62" layer="94"/>
+  <wire x2="-2.54" y1="-2.54" x1="-3.81" y2="-3.81" width="0.1524" layer="94"/>
+  <wire x2="-1.27" y1="-3.81" x1="-2.54" y2="-2.54" width="0.1524" layer="94"/>
+  <wire x2="2.54" y1="-2.54" x1="-1.27" y2="-2.54" width="0.1524" layer="94"/>
+  <wire x2="-5.08" y1="7.62" x1="2.54" y2="7.62" width="0.1524" layer="94"/>
+  <wire x2="0" y1="2.54" x1="-1.27" y2="1.27" width="0.1524" layer="94"/>
+  <wire x2="1.27" y1="1.27" x1="0" y2="2.54" width="0.1524" layer="94"/>
+  <wire x2="2.54" y1="2.54" x1="1.27" y2="2.54" width="0.1524" layer="94"/>
+  <wire x2="3.048" y1="2.54" x1="2.54" y2="1.27" width="0.1524" layer="94"/>
+  <wire x2="2.032" y1="1.27" x1="3.048" y2="1.27" width="0.1524" layer="94"/>
+  <wire x2="2.54" y1="1.27" x1="2.032" y2="2.54" width="0.1524" layer="94"/>
+  <wire x2="2.54" y1="2.54" x1="2.54" y2="0" width="0.1524" layer="94"/>
+  <wire x2="5.08" y1="0" x1="2.54" y2="0" width="0.1524" layer="94"/>
+  <wire x2="2.54" y1="-2.54" x1="2.54" y2="-5.08" width="0.1524" layer="94"/>
+  <wire x2="5.08" y1="-5.08" x1="2.54" y2="-5.08" width="0.1524" layer="94"/>
+  <wire x2="3.048" y1="-2.54" x1="2.54" y2="-3.81" width="0.1524" layer="94"/>
+  <wire x2="2.032" y1="-3.81" x1="3.048" y2="-3.81" width="0.1524" layer="94"/>
+  <wire x2="2.54" y1="-3.81" x1="2.032" y2="-2.54" width="0.1524" layer="94"/>
+  <pin rot="R180" x="5.08" length="short" visible="off" name="EARTH" y="7.62"/>
+  <pin rot="R180" x="5.08" length="short" visible="off" name="RING" y="-2.54"/>
+  <pin rot="R180" x="5.08" length="short" visible="off" name="RING-NORM" y="-5.08"/>
+  <pin rot="R180" x="5.08" length="short" visible="off" name="TIP" y="2.54"/>
+  <pin rot="R180" x="5.08" length="short" visible="off" name="TIP-NORM" y="0"/>
+  <text x="-5.08" layer="95" y="8.128" size="1.778">>NAME</text>
+  <text x="-5.08" layer="96" y="-7.62" size="1.778">>VALUE</text>
+  <text x="0" align="bottom-center" layer="94" y="2.54" size="1.27">T</text>
+  <text x="-2.54" align="bottom-center" layer="94" y="-2.54" size="1.27">R</text>
+ </symbol>
+ <symbol name="ZIF_52745-0897">
+  <wire x2="-1.905" y1="8.89" x1="2.54" y2="8.89" width="0.254" layer="94"/>
+  <wire x2="-1.905" y1="-11.43" x1="-1.905" y2="8.89" width="0.254" layer="94"/>
+  <wire x2="2.54" y1="-11.43" x1="-1.905" y2="-11.43" width="0.254" layer="94"/>
+  <wire x2="2.54" y1="8.89" x1="2.54" y2="6.35" width="0.254" layer="94"/>
+  <wire x2="5.08" y1="6.35" x1="2.54" y2="6.35" width="0.254" layer="94"/>
+  <wire x2="5.08" y1="6.35" x1="5.08" y2="-8.89" width="0.254" layer="94"/>
+  <wire x2="2.54" y1="-8.89" x1="5.08" y2="-8.89" width="0.254" layer="94"/>
+  <wire x2="2.54" y1="-8.89" x1="2.54" y2="-11.43" width="0.254" layer="94"/>
+  <wire x2="-0.635" y1="7.62" x1="-2.54" y2="7.62" width="0.1524" layer="94"/>
+  <wire x2="-0.635" y1="5.08" x1="-2.54" y2="5.08" width="0.1524" layer="94"/>
+  <wire x2="-0.635" y1="2.54" x1="-2.54" y2="2.54" width="0.1524" layer="94"/>
+  <wire x2="-0.635" y1="0" x1="-2.54" y2="0" width="0.1524" layer="94"/>
+  <wire x2="-0.635" y1="-2.54" x1="-2.54" y2="-2.54" width="0.1524" layer="94"/>
+  <wire x2="-0.635" y1="-5.08" x1="-2.54" y2="-5.08" width="0.1524" layer="94"/>
+  <wire x2="-0.635" y1="-7.62" x1="-2.54" y2="-7.62" width="0.1524" layer="94"/>
+  <wire x2="-0.635" y1="-10.16" x1="-2.54" y2="-10.16" width="0.1524" layer="94"/>
+  <wire x2="0.635" y1="7.62" x1="-0.635" y2="7.62" width="0.4064" layer="94"/>
+  <wire x2="0.635" y1="5.08" x1="-0.635" y2="5.08" width="0.4064" layer="94"/>
+  <wire x2="0.635" y1="2.54" x1="-0.635" y2="2.54" width="0.4064" layer="94"/>
+  <wire x2="0.635" y1="0" x1="-0.635" y2="0" width="0.4064" layer="94"/>
+  <wire x2="0.635" y1="-2.54" x1="-0.635" y2="-2.54" width="0.4064" layer="94"/>
+  <wire x2="0.635" y1="-5.08" x1="-0.635" y2="-5.08" width="0.4064" layer="94"/>
+  <wire x2="0.635" y1="-7.62" x1="-0.635" y2="-7.62" width="0.4064" layer="94"/>
+  <wire x2="0.635" y1="-10.16" x1="-0.635" y2="-10.16" width="0.4064" layer="94"/>
+  <text x="-1.905" layer="95" y="10.16" size="1.778">>NAME</text>
+  <text x="-1.905" layer="96" y="-14.2875" size="1.778">>VALUE</text>
+  <pin x="-5.08" length="short" visible="pad" name="RESET" direction="pas" y="7.62"/>
+  <pin x="-5.08" length="short" visible="pad" name="SDB" direction="pas" y="5.08"/>
+  <pin x="-5.08" length="short" visible="pad" name="SCL" direction="pas" y="2.54"/>
+  <pin x="-5.08" length="short" visible="pad" name="SDA" direction="pas" y="0"/>
+  <pin x="-5.08" length="short" visible="pad" name="GND" direction="pas" y="-2.54"/>
+  <pin x="-5.08" length="short" visible="pad" name="GND2" direction="pas" y="-5.08"/>
+  <pin x="-5.08" length="short" visible="pad" name="3.3V" direction="pas" y="-7.62"/>
+  <pin x="-5.08" length="short" visible="pad" name="3.3V2" direction="pas" y="-10.16"/>
+ </symbol>
+ <symbol name="PUSHBUTTON_SKHMQME010">
+  <description>&lt;h3>Momentary Switch (Pushbutton) - SPST - Two Circuits&lt;/h3>
+&lt;p>Normally-open (NO) SPST momentary switches (buttons, pushbuttons). Schematic symbol includes two switch circuits.&lt;/p></description>
+  <wire x2="2.54" y1="0" x1="1.905" y2="0" width="0.254" layer="94"/>
+  <wire x2="1.905" y1="4.445" x1="1.905" y2="3.175" width="0.254" layer="94"/>
+  <wire x2="-1.905" y1="4.445" x1="-1.905" y2="3.175" width="0.254" layer="94"/>
+  <wire x2="0" y1="4.445" x1="1.905" y2="4.445" width="0.254" layer="94"/>
+  <wire x2="-1.905" y1="4.445" x1="0" y2="4.445" width="0.254" layer="94"/>
+  <wire x2="0" y1="2.54" x1="0" y2="1.905" width="0.1524" layer="94"/>
+  <wire x2="0" y1="1.27" x1="0" y2="0.635" width="0.1524" layer="94"/>
+  <wire x2="0" y1="4.445" x1="0" y2="3.175" width="0.1524" layer="94"/>
+  <wire x2="2.54" y1="-2.54" x1="2.54" y2="0" width="0.1524" layer="94"/>
+  <wire x2="-2.54" y1="-2.54" x1="-2.54" y2="0" width="0.1524" layer="94"/>
+  <wire x2="1.905" y1="0" x1="-2.54" y2="1.27" width="0.254" layer="94"/>
+  <circle radius="0.127" x="-2.54" width="0.4064" layer="94" y="0"/>
+  <circle radius="0.127" x="2.54" width="0.4064" layer="94" y="0"/>
+  <text x="0" font="vector" align="bottom-center" layer="95" y="4.826" size="1.778">>NAME</text>
+  <text x="0" font="vector" align="top-center" layer="96" y="-2.794" size="1.778">>VALUE</text>
+  <pin x="-5.08" length="short" visible="pad" swaplevel="2" name="1" direction="pas" y="0"/>
+  <pin rot="R180" x="5.08" length="short" visible="pad" swaplevel="1" name="3" direction="pas" y="0"/>
+  <pin rot="R180" x="5.08" length="short" visible="pad" swaplevel="1" name="4" direction="pas" y="-2.54"/>
+  <pin x="-5.08" length="short" visible="pad" swaplevel="2" name="2" direction="pas" y="-2.54"/>
+ </symbol>
+ <symbol name="ROT_ENCODER">
+  <description>&lt;h3>Rotary Encoder w/ Select Switch&lt;/h3>
+&lt;p>Encoders rotate similarly to potentiometers, but they’re different from potentiometers in that an encoder has full rotation without limits. They output gray code so that you can tell how much and in which direction the encoder has been turned.&lt;/p></description>
+  <pin x="-10.16" length="middle" visible="off" name="SW+" y="5.08"/>
+  <pin x="-10.16" length="middle" visible="off" name="SW-" y="-5.08"/>
+  <pin rot="R180" x="10.16" length="middle" visible="pin" name="B" y="5.08"/>
+  <pin rot="R180" x="10.16" length="middle" visible="pin" name="C" y="0"/>
+  <pin rot="R180" x="10.16" length="middle" visible="pin" name="A" y="-5.08"/>
+  <wire x2="-2.54" y1="5.08" x1="-5.08" y2="5.08" width="0.1524" layer="94"/>
+  <wire x2="-2.54" y1="5.08" x1="-2.54" y2="2.54" width="0.1524" layer="94"/>
+  <wire x2="-1.524" y1="2.54" x1="-2.54" y2="-2.54" width="0.1524" layer="94"/>
+  <wire x2="-2.54" y1="-5.08" x1="-5.08" y2="-5.08" width="0.1524" layer="94"/>
+  <wire x2="-2.54" y1="-5.08" x1="-2.54" y2="-1.778" width="0.1524" layer="94"/>
+  <wire x2="7.62" y1="7.62" x1="-7.62" y2="7.62" width="0.254" layer="94"/>
+  <wire x2="7.62" y1="7.62" x1="7.62" y2="-7.62" width="0.254" layer="94"/>
+  <wire x2="-7.62" y1="-7.62" x1="7.62" y2="-7.62" width="0.254" layer="94"/>
+  <wire x2="-7.62" y1="-7.62" x1="-7.62" y2="7.62" width="0.254" layer="94"/>
+  <text x="-7.62" font="vector" layer="95" y="7.874" size="1.778">>NAME</text>
+  <text x="-7.62" font="vector" align="top-left" layer="96" y="-7.874" size="1.778">>VALUE</text>
+ </symbol>
+ <symbol name="OPTO_DARLINGTON_HCPL0701">
+  <description>&lt;h3>Lite-On 6N137S - High-Speed OptoIsolator&lt;/h3>
+&lt;p>Opto-Isolator capable of 10 MBd.&lt;/p></description>
+  <wire x2="7.62" y1="-12.7" x1="-5.08" y2="-12.7" width="0.1524" layer="94"/>
+  <wire x2="7.62" y1="-12.7" x1="7.62" y2="7.62" width="0.1524" layer="94"/>
+  <wire x2="-5.08" y1="7.62" x1="7.62" y2="7.62" width="0.1524" layer="94"/>
+  <wire x2="-5.08" y1="7.62" x1="-5.08" y2="5.08" width="0.1524" layer="94"/>
+  <wire x2="-5.08" y1="5.08" x1="-5.08" y2="-10.16" width="0.1524" layer="94"/>
+  <wire x2="-5.08" y1="-10.16" x1="-5.08" y2="-12.7" width="0.1524" layer="94"/>
+  <wire x2="-3.302" y1="5.08" x1="-5.08" y2="5.08" width="0.1524" layer="94"/>
+  <wire x2="-3.302" y1="5.08" x1="-3.302" y2="-1.778" width="0.1524" layer="94"/>
+  <wire x2="-2.286" y1="-2.794" x1="-3.302" y2="-2.794" width="0.1524" layer="94"/>
+  <wire x2="-3.302" y1="-2.794" x1="-4.318" y2="-2.794" width="0.1524" layer="94"/>
+  <wire x2="-3.302" y1="-2.794" x1="-3.302" y2="-10.16" width="0.1524" layer="94"/>
+  <wire x2="-5.08" y1="-10.16" x1="-3.302" y2="-10.16" width="0.1524" layer="94"/>
+  <text x="-3.302" font="vector" layer="95" y="8.128" size="1.778">>NAME</text>
+  <text x="-3.556" font="vector" align="top-left" layer="96" y="-13.208" size="1.778">>VALUE</text>
+  <pin x="-7.62" length="short" name="C-" y="-10.16"/>
+  <pin x="-7.62" length="short" name="A+" y="5.08"/>
+  <pin rot="R180" x="10.16" length="short" name="VCC" y="5.08"/>
+  <pin rot="R180" x="10.16" length="short" name="VOUT" y="-5.08"/>
+  <pin rot="R180" x="10.16" length="short" name="GND" y="-10.16"/>
+  <polygon width="0.1524" layer="94">
+   <vertex x="-4.318" y="-1.778"/>
+   <vertex x="-3.302" y="-2.794"/>
+   <vertex x="-2.286" y="-1.778"/>
+  </polygon>
+  <pin rot="R180" x="10.16" length="short" name="VB" y="0"/>
+ </symbol>
+ <symbol name="SN74AHCT125">
+  <description>sn74ahct125n Quadruple Bus Buffer Gates With 3 State Outputs
+
+https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf</description>
+  <pin x="-15.24" length="middle" name="!1OE" direction="in" y="7.62"/>
+  <pin x="-15.24" length="middle" name="1A" direction="in" y="2.54"/>
+  <pin x="-15.24" length="middle" name="1Y" direction="out" y="-2.54"/>
+  <pin x="-15.24" length="middle" name="!2OE" direction="in" y="-7.62"/>
+  <pin x="-15.24" length="middle" name="2A" direction="in" y="-12.7"/>
+  <pin x="-15.24" length="middle" name="2Y" direction="out" y="-17.78"/>
+  <pin x="-15.24" length="middle" name="GND" direction="in" y="-22.86"/>
+  <pin rot="R180" x="15.24" length="middle" name="VCC" direction="in" y="7.62"/>
+  <pin rot="R180" x="15.24" length="middle" name="!4OE" direction="in" y="2.54"/>
+  <pin rot="R180" x="15.24" length="middle" name="4A" direction="in" y="-2.54"/>
+  <pin rot="R180" x="15.24" length="middle" name="4Y" direction="out" y="-7.62"/>
+  <pin rot="R180" x="15.24" length="middle" name="!3OE" direction="in" y="-12.7"/>
+  <pin rot="R180" x="15.24" length="middle" name="3A" direction="in" y="-17.78"/>
+  <pin rot="R180" x="15.24" length="middle" name="3Y" direction="out" y="-22.86"/>
+  <wire x2="-10.16" y1="10.16" x1="-10.16" y2="-25.4" width="0.254" layer="94"/>
+  <wire x2="10.16" y1="-25.4" x1="-10.16" y2="-25.4" width="0.254" layer="94"/>
+  <wire x2="10.16" y1="-25.4" x1="10.16" y2="10.16" width="0.254" layer="94"/>
+  <wire x2="-10.16" y1="10.16" x1="10.16" y2="10.16" width="0.254" layer="94"/>
+  <text x="-2.54" layer="94" y="10.16" size="1.27">>Name</text>
+  <text x="-2.54" layer="94" y="-25.4" size="1.27">>Value</text>
+ </symbol>
+ <symbol name="GW22LHP">
+  <description>&lt;h3>Double-Pole, Double-Throw (DPDT) Switch&lt;/h3>
+&lt;p>Double-pole, double-throw switches.&lt;/p></description>
+  <wire x2="-2.286" y1="5.08" x1="1.27" y2="2.794" width="0.254" layer="94"/>
+  <wire x2="1.27" y1="-4.826" x1="-2.286" y2="-2.54" width="0.254" layer="94"/>
+  <wire x2="2.54" y1="6.35" x1="2.54" y2="7.62" width="0.254" layer="94"/>
+  <wire x2="-2.54" y1="7.62" x1="2.54" y2="7.62" width="0.254" layer="94"/>
+  <wire x2="-2.54" y1="7.62" x1="-2.54" y2="3.81" width="0.254" layer="94"/>
+  <wire x2="-2.54" y1="1.27" x1="-2.54" y2="-3.81" width="0.254" layer="94"/>
+  <wire x2="-2.54" y1="-6.35" x1="-2.54" y2="-10.16" width="0.254" layer="94"/>
+  <wire x2="2.54" y1="-10.16" x1="-2.54" y2="-10.16" width="0.254" layer="94"/>
+  <wire x2="2.54" y1="-10.16" x1="2.54" y2="-8.89" width="0.254" layer="94"/>
+  <wire x2="2.54" y1="-6.35" x1="2.54" y2="-3.81" width="0.254" layer="94"/>
+  <wire x2="2.54" y1="3.81" x1="2.54" y2="1.27" width="0.254" layer="94"/>
+  <wire x2="0" y1="4.064" x1="0" y2="2.54" width="0.254" layer="94"/>
+  <wire x2="0" y1="1.27" x1="0" y2="-1.27" width="0.254" layer="94"/>
+  <wire x2="0" y1="-2.54" x1="0" y2="-3.302" width="0.254" layer="94"/>
+  <circle radius="0.3592" x="-2.54" width="0.254" layer="94" y="2.54"/>
+  <circle radius="0.3592" x="2.54" width="0.254" layer="94" y="5.08"/>
+  <circle radius="0.3592" x="2.54" width="0.254" layer="94" y="0"/>
+  <circle radius="0.3592" x="2.54" width="0.254" layer="94" y="-2.54"/>
+  <circle radius="0.3592" x="2.54" width="0.254" layer="94" y="-7.62"/>
+  <circle radius="0.3592" x="-2.54" width="0.254" layer="94" y="-5.08"/>
+  <text x="0" font="vector" align="bottom-center" layer="95" y="7.874" size="1.778">>NAME</text>
+  <text x="0" font="vector" align="top-center" layer="96" y="-10.414" size="1.778">>VALUE</text>
+  <pin rot="R180" x="5.08" length="short" visible="off" name="NC_1" y="5.08"/>
+  <pin x="-5.08" length="short" visible="pin" name="COM_1" y="2.54"/>
+  <pin rot="R180" x="5.08" length="short" visible="off" name="NO_1" y="0"/>
+  <pin rot="R180" x="5.08" length="short" visible="off" name="NC_2" y="-2.54"/>
+  <pin x="-5.08" length="short" visible="off" name="COM_2" y="-5.08"/>
+  <pin rot="R180" x="5.08" length="short" visible="off" name="NO_2" y="-7.62"/>
+ </symbol>
+ <symbol name="ISSI">
+  <wire x2="-6.35" y1="8.89" curve="-90" x1="-7.62" y2="10.16" width="0.254" layer="94"/>
+  <wire x2="-6.35" y1="-6.35" curve="90" x1="-7.62" y2="-7.62" width="0.254" layer="94"/>
+  <wire x2="6.35" y1="-7.62" curve="90" x1="5.08" y2="-6.35" width="0.254" layer="94"/>
+  <wire x2="6.35" y1="10.16" curve="-90" x1="5.08" y2="8.89" width="0.254" layer="94"/>
+  <wire x2="-7.62" y1="8.89" x1="-7.62" y2="-6.35" width="0.254" layer="94"/>
+  <wire x2="5.08" y1="-7.62" x1="-6.35" y2="-7.62" width="0.254" layer="94"/>
+  <wire x2="6.35" y1="-6.35" x1="6.35" y2="8.89" width="0.254" layer="94"/>
+  <wire x2="-6.35" y1="10.16" x1="5.08" y2="10.16" width="0.254" layer="94"/>
+  <text x="-7.62" layer="95" y="11.43" size="1.778">>NAME</text>
+  <text x="-7.62" layer="96" y="-10.16" size="1.778">>VALUE</text>
+  <text rot="R90" x="5.08" layer="95" y="-2.54" size="2.54">ISSI</text>
+  <pin x="-10.16" length="short" name="IICRST" direction="pas" y="7.62"/>
+  <pin x="-10.16" length="short" name="SDB" direction="pas" y="5.08"/>
+  <pin x="-10.16" length="short" name="SCL" direction="pas" y="2.54"/>
+  <pin x="-10.16" length="short" name="SDA" direction="pas" y="0"/>
+  <pin x="-10.16" length="short" name="GND" direction="pas" y="-2.54"/>
+  <pin x="-10.16" length="short" name="VCC" direction="pas" y="-5.08"/>
+ </symbol>
+ <symbol name="PUSHBUTTON_PG1232">
+  <description>&lt;h3>Momentary Switch (Pushbutton) - SPST&lt;/h3>
+&lt;p>Normally-open (NO) SPST momentary switches (buttons, pushbuttons).&lt;/p></description>
+  <wire x2="2.54" y1="0" x1="1.905" y2="0" width="0.254" layer="94"/>
+  <wire x2="1.905" y1="0" x1="-2.54" y2="1.27" width="0.254" layer="94"/>
+  <circle radius="0.127" x="-2.54" width="0.4064" layer="94" y="0"/>
+  <circle radius="0.127" x="2.54" width="0.4064" layer="94" y="0"/>
+  <text x="0" font="vector" align="bottom-center" layer="95" y="1.524" size="1.778">>NAME</text>
+  <text x="0" font="vector" align="top-center" layer="96" y="-0.508" size="1.778">>VALUE</text>
+  <pin x="-5.08" length="short" visible="off" swaplevel="2" name="1" direction="pas" y="0"/>
+  <pin rot="R180" x="5.08" length="short" visible="off" swaplevel="1" name="2" direction="pas" y="0"/>
+ </symbol>
+ <symbol name="LM139DT">
+  <wire x2="63.5" y1="2.54" x1="5.08" y2="2.54" width="0.254" layer="94"/>
+  <wire x2="63.5" y1="-17.78" x1="63.5" y2="2.54" width="0.254" layer="94"/>
+  <wire x2="5.08" y1="-17.78" x1="63.5" y2="-17.78" width="0.254" layer="94"/>
+  <wire x2="5.08" y1="2.54" x1="5.08" y2="-17.78" width="0.254" layer="94"/>
+  <text x="64.77" align="center-left" layer="95" y="7.62" size="1.778">>NAME</text>
+  <text x="64.77" align="center-left" layer="96" y="5.08" size="1.778">>VALUE</text>
+  <pin rot="R0" x="0" length="middle" name="O_UTPUT2" direction="io" y="0"/>
+  <pin rot="R0" x="0" length="middle" name="O_UTPUT1" direction="io" y="-2.54"/>
+  <pin rot="R0" x="0" length="middle" name="VCC+" direction="io" y="-5.08"/>
+  <pin rot="R0" x="0" length="middle" name="INVERTING_INPUT1" direction="io" y="-7.62"/>
+  <pin rot="R0" x="0" length="middle" name="NON-INVERTING_INPUT1" direction="io" y="-10.16"/>
+  <pin rot="R0" x="0" length="middle" name="INVERTING_INPUT2" direction="io" y="-12.7"/>
+  <pin rot="R0" x="0" length="middle" name="NON-INVERTING_INPUT2" direction="io" y="-15.24"/>
+  <pin rot="R180" x="68.58" length="middle" name="O_UTPUT3" direction="io" y="0"/>
+  <pin rot="R180" x="68.58" length="middle" name="O_UTPUT4" direction="io" y="-2.54"/>
+  <pin rot="R180" x="68.58" length="middle" name="VCC-" direction="io" y="-5.08"/>
+  <pin rot="R180" x="68.58" length="middle" name="NON-INVERTING_INPUT4" direction="io" y="-7.62"/>
+  <pin rot="R180" x="68.58" length="middle" name="INVERTING_INPUT4" direction="io" y="-10.16"/>
+  <pin rot="R180" x="68.58" length="middle" name="NON-INVERTING_INPUT3" direction="io" y="-12.7"/>
+  <pin rot="R180" x="68.58" length="middle" name="INVERTING_INPUT3" direction="io" y="-15.24"/>
+ </symbol>
+ <symbol name="P120PK-F20BR5K">
+  <wire x2="17.78" y1="2.54" x1="5.08" y2="2.54" width="0.254" layer="94"/>
+  <wire x2="17.78" y1="-7.62" x1="17.78" y2="2.54" width="0.254" layer="94"/>
+  <wire x2="5.08" y1="-7.62" x1="17.78" y2="-7.62" width="0.254" layer="94"/>
+  <wire x2="5.08" y1="2.54" x1="5.08" y2="-7.62" width="0.254" layer="94"/>
+  <text x="19.05" align="center-left" layer="95" y="7.62" size="1.778">>NAME</text>
+  <text x="19.05" align="center-left" layer="96" y="5.08" size="1.778">>VALUE</text>
+  <pin rot="R0" x="0" length="middle" name="1" direction="io" y="0"/>
+  <pin rot="R0" x="0" length="middle" name="2" direction="io" y="-2.54"/>
+  <pin rot="R0" x="0" length="middle" name="3" direction="io" y="-5.08"/>
+  <pin rot="R180" x="22.86" length="middle" name="MH1" direction="io" y="0"/>
+  <pin rot="R180" x="22.86" length="middle" name="MH2" direction="io" y="-2.54"/>
+ </symbol>
+</symbols>
+<devicesets>
+ <deviceset name="3.5MM_JACK_TX-3680-5NB" prefix="J">
+  <gates>
+   <gate x="7.62" symbol="3.5MM_JACK_STX-3680-5NB" name="G$1" y="5.08"/>
+  </gates>
+  <devices>
+   <device name="" package="3.5MM_JACK_TX36805NB">
+    <connects>
+     <connect gate="G$1" pin="EARTH" pad="1.EARTH"/>
+     <connect gate="G$1" pin="RING" pad="3.RING"/>
+     <connect gate="G$1" pin="RING-NORM" pad="5.RINGNORM"/>
+     <connect gate="G$1" pin="TIP" pad="2.TIP"/>
+     <connect gate="G$1" pin="TIP-NORM" pad="4.TIPNORM"/>
+    </connects>
+    <technologies>
+     <technology name=""/>
+    </technologies>
+   </device>
+  </devices>
+ </deviceset>
+ <deviceset name="ZIF_52745-0897" prefix="J">
+  <gates>
+   <gate x="7.62" symbol="ZIF_52745-0897" name="G$1" y="12.7"/>
+  </gates>
+  <devices>
+   <device name="" package="ZIF_527450897">
+    <connects>
+     <connect gate="G$1" pin="3.3V" pad="7"/>
+     <connect gate="G$1" pin="3.3V2" pad="8"/>
+     <connect gate="G$1" pin="GND" pad="5"/>
+     <connect gate="G$1" pin="GND2" pad="6"/>
+     <connect gate="G$1" pin="RESET" pad="1"/>
+     <connect gate="G$1" pin="SCL" pad="3"/>
+     <connect gate="G$1" pin="SDA" pad="4"/>
+     <connect gate="G$1" pin="SDB" pad="2"/>
+    </connects>
+    <technologies>
+     <technology name=""/>
+    </technologies>
+   </device>
+  </devices>
+ </deviceset>
+ <deviceset name="PUSHBUTTON_SKHMQME010" prefix="S">
+  <gates>
+   <gate x="0" symbol="PUSHBUTTON_SKHMQME010" name="G$1" y="0"/>
+  </gates>
+  <devices>
+   <device name="" package="PUSHUTTON_SKHMQLE010">
+    <connects>
+     <connect gate="G$1" pin="1" pad="1"/>
+     <connect gate="G$1" pin="2" pad="2"/>
+     <connect gate="G$1" pin="3" pad="3"/>
+     <connect gate="G$1" pin="4" pad="4"/>
+    </connects>
+    <technologies>
+     <technology name=""/>
+    </technologies>
+   </device>
+  </devices>
+ </deviceset>
+ <deviceset name="ROT_ENCODER_E33_VT" prefix="S">
+  <description>&lt;b>Rotary Switch 16Pos, E33-VT632-M11T, Elma&lt;/b>&lt;p>
+Source: &lt;a href="https://www.distrelec.de/en/rotary-switch-16pos-elma-e33-vt632-m11t/p/13584701?utm_source=octoX&amp;utm_medium=cse&amp;utm_campaign=octo-feed&amp;ext_cid=ceoctaqzzen-na"> Datasheet &lt;/a></description>
+  <gates>
+   <gate x="7.62" symbol="ROT_ENCODER" name="G$1" y="5.08"/>
+  </gates>
+  <devices>
+   <device name="" package="ROT_ENCODER_E33_VT">
+    <connects>
+     <connect gate="G$1" pin="A" pad="5"/>
+     <connect gate="G$1" pin="B" pad="1"/>
+     <connect gate="G$1" pin="C" pad="4"/>
+     <connect gate="G$1" pin="SW+" pad="2"/>
+     <connect gate="G$1" pin="SW-" pad="3"/>
+    </connects>
+    <technologies>
+     <technology name="">
+      <attribute constant="no" name="DESCRIPTION" value="Rotary Switch 16Pos, E33-VT632-M11T, Elma"/>
+      <attribute constant="no" name="HEIGHT" value="mm"/>
+      <attribute constant="no" name="MANUFACTURER_NAME" value="FCI"/>
+      <attribute constant="no" name="MANUFACTURER_PART_NUMBER" value="E33-VT632-M11T"/>
+      <attribute constant="no" name="MOUSER_PART_NUMBER" value=""/>
+      <attribute constant="no" name="MOUSER_PRICE-STOCK" value=""/>
+      <attribute constant="no" name="RS_PART_NUMBER" value=""/>
+      <attribute constant="no" name="RS_PRICE-STOCK" value=""/>
+     </technology>
+    </technologies>
+   </device>
+  </devices>
+ </deviceset>
+ <deviceset name="OPTO_DARLINGTON_HCPL0701" prefix="IC">
+  <description>&lt;b>Hi-Gain Split Darlington Optocoupler SO8&lt;/b>&lt;p>
+Source: &lt;a href="http://www.onsemi.com/pub/Collateral/HCPL0731-D.pdf"> Datasheet &lt;/a></description>
+  <gates>
+   <gate x="-2.54" symbol="OPTO_DARLINGTON_HCPL0701" name="G$1" y="2.54"/>
+  </gates>
+  <devices>
+   <device name="" package="OPTO_DARLINGTON_SOIC127P594X363-8N">
+    <connects>
+     <connect gate="G$1" pin="A+" pad="2"/>
+     <connect gate="G$1" pin="C-" pad="3"/>
+     <connect gate="G$1" pin="GND" pad="5"/>
+     <connect gate="G$1" pin="VB" pad="7"/>
+     <connect gate="G$1" pin="VCC" pad="8"/>
+     <connect gate="G$1" pin="VOUT" pad="6"/>
+    </connects>
+    <technologies>
+     <technology name="">
+      <attribute constant="no" name="DESCRIPTION" value="Hi-Gain Split Darlington Optocoupler SO8"/>
+      <attribute constant="no" name="HEIGHT" value="3.63mm"/>
+      <attribute constant="no" name="MANUFACTURER_NAME" value="ON Semiconductor"/>
+      <attribute constant="no" name="MANUFACTURER_PART_NUMBER" value="HCPL0701"/>
+      <attribute constant="no" name="MOUSER_PART_NUMBER" value="512-HCPL0701"/>
+      <attribute constant="no" name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=512-HCPL0701"/>
+      <attribute constant="no" name="RS_PART_NUMBER" value="9034263P"/>
+      <attribute constant="no" name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/9034263P"/>
+     </technology>
+    </technologies>
+   </device>
+  </devices>
+ </deviceset>
+ <deviceset name="GW22LHP" prefix="S">
+  <description>&lt;b>NKK SWITCHES - GW22LHP - ROCKER SWITCH, DPDT, ON-ON&lt;/b>&lt;p>
+Source: &lt;a href="https://www.nkkswitches.com/pdf/GW.pdf"> Datasheet &lt;/a></description>
+  <gates>
+   <gate x="10.16" symbol="GW22LHP" name="G$1" y="2.54"/>
+  </gates>
+  <devices>
+   <device name="" package="GW22LHP">
+    <connects>
+     <connect gate="G$1" pin="COM_1" pad="2"/>
+     <connect gate="G$1" pin="COM_2" pad="5"/>
+     <connect gate="G$1" pin="NC_1" pad="3"/>
+     <connect gate="G$1" pin="NC_2" pad="6"/>
+     <connect gate="G$1" pin="NO_1" pad="1"/>
+     <connect gate="G$1" pin="NO_2" pad="4"/>
+    </connects>
+    <technologies>
+     <technology name="">
+      <attribute constant="no" name="ALLIED_NUMBER" value="70365614"/>
+      <attribute constant="no" name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/nkkswitches-gw22lhp/70365614/"/>
+      <attribute constant="no" name="DESCRIPTION" value="NKK SWITCHES - GW22LHP - ROCKER SWITCH, DPDT, ON-ON"/>
+      <attribute constant="no" name="HEIGHT" value="10.8mm"/>
+      <attribute constant="no" name="MANUFACTURER_NAME" value="NKK Switches"/>
+      <attribute constant="no" name="MANUFACTURER_PART_NUMBER" value="GW22LHP"/>
+      <attribute constant="no" name="MOUSER_PART_NUMBER" value="633-GW22LHP"/>
+      <attribute constant="no" name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=633-GW22LHP"/>
+      <attribute constant="no" name="RS_PART_NUMBER" value=""/>
+      <attribute constant="no" name="RS_PRICE-STOCK" value=""/>
+     </technology>
+    </technologies>
+   </device>
+  </devices>
+ </deviceset>
+ <deviceset name="SN74AHCT125" prefix="IC">
+  <description>sn74ahct125n Quadruple Bus Buffer Gates With 3 State Outputs https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf</description>
+  <gates>
+   <gate x="15.24" symbol="SN74AHCT125" name="G$1" y="5.08"/>
+  </gates>
+  <devices>
+   <device name="" package="SN74AHCT_DIP794W53P254L1930H508Q14N">
+    <connects>
+     <connect gate="G$1" pin="!1OE" pad="1"/>
+     <connect gate="G$1" pin="!2OE" pad="4"/>
+     <connect gate="G$1" pin="!3OE" pad="10"/>
+     <connect gate="G$1" pin="!4OE" pad="13"/>
+     <connect gate="G$1" pin="1A" pad="2"/>
+     <connect gate="G$1" pin="1Y" pad="3"/>
+     <connect gate="G$1" pin="2A" pad="5"/>
+     <connect gate="G$1" pin="2Y" pad="6"/>
+     <connect gate="G$1" pin="3A" pad="9"/>
+     <connect gate="G$1" pin="3Y" pad="8"/>
+     <connect gate="G$1" pin="4A" pad="12"/>
+     <connect gate="G$1" pin="4Y" pad="11"/>
+     <connect gate="G$1" pin="GND" pad="7"/>
+     <connect gate="G$1" pin="VCC" pad="14"/>
+    </connects>
+    <technologies>
+     <technology name="">
+      <attribute constant="no" name="DESCRIPTION" value="Hex Schmitt Trigger Inverter SN74HCT14N"/>
+      <attribute constant="no" name="HEIGHT" value="5.08mm"/>
+      <attribute constant="no" name="MANUFACTURER_NAME" value="Texas Instruments"/>
+      <attribute constant="no" name="MANUFACTURER_PART_NUMBER" value="SN74HCT14N"/>
+      <attribute constant="no" name="MOUSER_PART_NUMBER" value="595-SN74HCT14N"/>
+      <attribute constant="no" name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=595-SN74HCT14N"/>
+      <attribute constant="no" name="RS_PART_NUMBER" value="0526331"/>
+      <attribute constant="no" name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/0526331"/>
+     </technology>
+    </technologies>
+   </device>
+  </devices>
+ </deviceset>
+ <deviceset name="ROT_ENCODER_E33_SMT" prefix="S">
+  <description>&lt;b>Rotary Switch 16Pos, E33-VT632-M11T, Elma&lt;/b>&lt;p>
+Source: &lt;a href="https://www.distrelec.de/en/rotary-switch-16pos-elma-e33-vt632-m11t/p/13584701?utm_source=octoX&amp;utm_medium=cse&amp;utm_campaign=octo-feed&amp;ext_cid=ceoctaqzzen-na"> Datasheet &lt;/a></description>
+  <gates>
+   <gate x="7.62" symbol="ROT_ENCODER" name="G$1" y="5.08"/>
+  </gates>
+  <devices>
+   <device name="" package="ROT_ENCODER_E33_SMT">
+    <connects>
+     <connect gate="G$1" pin="A" pad="A"/>
+     <connect gate="G$1" pin="B" pad="B"/>
+     <connect gate="G$1" pin="C" pad="C"/>
+     <connect gate="G$1" pin="SW+" pad="S1"/>
+     <connect gate="G$1" pin="SW-" pad="S2"/>
+    </connects>
+    <technologies>
+     <technology name=""/>
+    </technologies>
+   </device>
+  </devices>
+ </deviceset>
+ <deviceset name="ISSI">
+  <gates>
+   <gate x="0" symbol="ISSI" name="G$1" y="0"/>
+  </gates>
+  <devices>
+   <device name="" package="ISSI">
+    <connects>
+     <connect gate="G$1" pin="GND" pad="GND"/>
+     <connect gate="G$1" pin="IICRST" pad="IICRST"/>
+     <connect gate="G$1" pin="SCL" pad="SCL"/>
+     <connect gate="G$1" pin="SDA" pad="SDA"/>
+     <connect gate="G$1" pin="SDB" pad="SDB"/>
+     <connect gate="G$1" pin="VCC" pad="VCC"/>
+    </connects>
+    <technologies>
+     <technology name=""/>
+    </technologies>
+   </device>
+  </devices>
+ </deviceset>
+ <deviceset name="PUSHBUTTON_PG1232" prefix="S">
+  <gates>
+   <gate x="7.62" symbol="PUSHBUTTON_PG1232" name="G$1" y="2.54"/>
+  </gates>
+  <devices>
+   <device name="" package="PUSHBUTTON_PG1232">
+    <connects>
+     <connect gate="G$1" pin="1" pad="1"/>
+     <connect gate="G$1" pin="2" pad="2"/>
+    </connects>
+    <technologies>
+     <technology name=""/>
+    </technologies>
+   </device>
+  </devices>
+ </deviceset>
+ <deviceset name="LM139DT" prefix="IC">
+  <description>&lt;b>STMICROELECTRONICS - LM139DT - COMPARATOR, OPEN COLLECTOR, SOIC-14&lt;/b>&lt;p>&#xd;
+Source: &lt;a href="http://www.st.com/content/ccc/resource/technical/document/datasheet/bf/7e/d7/a4/67/86/4e/89/CD00000460.pdf/files/CD00000460.pdf/jcr:content/translations/en.CD00000460.pdf"> Datasheet &lt;/a></description>
+  <gates>
+   <gate x="0" symbol="LM139DT" name="G$1" y="0"/>
+  </gates>
+  <devices>
+   <device name="" package="SOIC127P600X175-14N">
+    <connects>
+     <connect gate="G$1" pin="O_UTPUT2" pad="1"/>
+     <connect gate="G$1" pin="O_UTPUT1" pad="2"/>
+     <connect gate="G$1" pin="VCC+" pad="3"/>
+     <connect gate="G$1" pin="INVERTING_INPUT1" pad="4"/>
+     <connect gate="G$1" pin="NON-INVERTING_INPUT1" pad="5"/>
+     <connect gate="G$1" pin="INVERTING_INPUT2" pad="6"/>
+     <connect gate="G$1" pin="NON-INVERTING_INPUT2" pad="7"/>
+     <connect gate="G$1" pin="INVERTING_INPUT3" pad="8"/>
+     <connect gate="G$1" pin="NON-INVERTING_INPUT3" pad="9"/>
+     <connect gate="G$1" pin="INVERTING_INPUT4" pad="10"/>
+     <connect gate="G$1" pin="NON-INVERTING_INPUT4" pad="11"/>
+     <connect gate="G$1" pin="VCC-" pad="12"/>
+     <connect gate="G$1" pin="O_UTPUT4" pad="13"/>
+     <connect gate="G$1" pin="O_UTPUT3" pad="14"/>
+    </connects>
+    <technologies>
+     <technology name="">
+      <attribute constant="no" name="Manufacturer_Name" value="STMicroelectronics"/>
+      <attribute constant="no" name="Manufacturer_Part_Number" value="LM139DT"/>
+      <attribute constant="no" name="Mouser_Part_Number" value="511-LM139DT"/>
+      <attribute constant="no" name="Mouser_Price-Stock" value="https://www.mouser.com/Search/Refine.aspx?Keyword=511-LM139DT"/>
+      <attribute constant="no" name="RS_Part_Number" value=""/>
+      <attribute constant="no" name="RS_Price-Stock" value=""/>
+      <attribute constant="no" name="Description" value="STMICROELECTRONICS - LM139DT - COMPARATOR, OPEN COLLECTOR, SOIC-14"/>
+      <attribute constant="no" name="Height" value="1.75mm"/>
+     </technology>
+    </technologies>
+   </device>
+  </devices>
+ </deviceset>
+ <deviceset name="P120PK-F20BR5K" prefix="VR">
+  <description>&lt;b>Potentiometers PCB MOUNT - ROTARY POTENTIOMETER 5K 20%&lt;/b>&lt;p>&#xd;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/P120PK-F20BR5K.pdf"> Datasheet &lt;/a></description>
+  <gates>
+   <gate x="0" symbol="P120PK-F20BR5K" name="G$1" y="0"/>
+  </gates>
+  <devices>
+   <device name="" package="P120PKY20BR20K">
+    <connects>
+     <connect gate="G$1" pin="1" pad="1"/>
+     <connect gate="G$1" pin="2" pad="2"/>
+     <connect gate="G$1" pin="3" pad="3"/>
+     <connect gate="G$1" pin="MH1" pad="MH1"/>
+     <connect gate="G$1" pin="MH2" pad="MH2"/>
+    </connects>
+    <technologies>
+     <technology name="">
+      <attribute constant="no" name="Manufacturer_Name" value="BI Technologies"/>
+      <attribute constant="no" name="Manufacturer_Part_Number" value="P120PK-F20BR5K"/>
+      <attribute constant="no" name="Mouser_Part_Number" value="858-P120PK-F20BR5K"/>
+      <attribute constant="no" name="Mouser_Price-Stock" value="https://www.mouser.com/Search/Refine.aspx?Keyword=858-P120PK-F20BR5K"/>
+      <attribute constant="no" name="RS_Part_Number" value=""/>
+      <attribute constant="no" name="RS_Price-Stock" value=""/>
+      <attribute constant="no" name="Description" value="Potentiometers PCB MOUNT - ROTARY POTENTIOMETER 5K 20%"/>
+      <attribute constant="no" name="Height" value="20mm"/>
+     </technology>
+    </technologies>
+   </device>
+  </devices>
+ </deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
